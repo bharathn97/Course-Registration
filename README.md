@@ -6,13 +6,29 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 After downloading the zip file and unzipping the file open terminal and run 
 
 -npm i(To install all the node module dependencies)
+
 -npm i mongoose(Just in case,had to install mongoose seperately when i checked)
 
-Open MongoDB Atlas Compass and type the url string as "mongodb://127.0.0.1:27017/iris-db" to connect to the mongodb database to the project
+To install MongoDB
 
-Click the Save and Connect button to save and connect to the mongodb connection 
+https://www.mongodb.com/try/download/community
+
+->Go To community server section and click download
+
+To install MongoDB Compass
+
+https://www.mongodb.com/try/download/shell
+
+->Download MongoDB shell and MongoDB compass 
+
+->Open MongoDB Compass and type the url string as "mongodb://127.0.0.1:27017/iris-db" to connect to the mongodb database to the project
+
+->You can run mongosh command and mongod to view all the details in a new tab of the terminal
+
+->Click the Save and Connect button to save and connect to the mongodb connection 
 
 -npm run dev 
+
 To start the project 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
