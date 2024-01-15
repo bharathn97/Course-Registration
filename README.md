@@ -1,8 +1,7 @@
-# IRIS_Rec23_221IT017_MERN-NEXT-JS-
+--------# IRIS_Rec23_221IT017_MERN-NEXT-JS--------
 A Course Registration Web Application done using MERN(Using Next-JS) 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+------GETTING STARTED--------
 After downloading the zip file and unzipping the file open terminal and run 
 
 -npm i(To install all the node module dependencies)
@@ -44,16 +43,25 @@ Further instructions to run the project is shown in the video
 I have uploaded a google drive link for the demonstration videos:(5 videos explaining different parts of the project)
 
 https://drive.google.com/drive/folders/1AYQLIr9JYOJrNEJ-XvwZw2DZVDhynS1r?usp=sharing
+--------------------------------------------------------------------------------------------------------------
 
-LIST OF IMPLEMENTED FEATURES
+
+--------LIST OF IMPLEMENTED FEATURES--------------
+
+
 
 1.Three way user login where student has fields like enrolled courses,sem,CGPA,Total Credits,department,Student ID and admin has just the name email and the password.
 
+
 The faculty has fields like department,assigned courses,staffID,name,email
+
+
 
 2.Authentication done using jwt token and checked whether token exists in each component after user login
 
-3.As an Admin,The following features are implemented:
+
+
+3.AS AN ADMIN,THE FOLLOWING FEATURES ARE IMPLEMENTED
 
 ->Viewing All Faculty details
 
@@ -93,7 +101,9 @@ Only once set can students give feedbacks
 
 ->Can set the minimum CGPA or minimum Credits required to enroll to a particular course
 
-4.As a Faculty,The following features are implemented
+
+
+4.AS A FACULTY,THE FOLLOWING FEATURES ARE IMPLEMENTED
 
 ->Can view his own details in My Account section
 
@@ -115,7 +125,8 @@ admin or the faculty can change the slots for every course he is assigned to acc
 ->Can set the minimum CGPA or minimum Credits required to enroll to a particular course
 
 
-5.As a student,The following features are implemented
+
+5.AS A STUDENT,THE FOLLOWING FEATURES ARE IMPLEMENTED
 
 ->Can view all the available courses that belong to his department and degree which has all teh required details
 
@@ -145,7 +156,10 @@ the course registration deadline
 ->Emails also sent when the student drops a particular course
 
 
-List of Non-implemented features/Planned features
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+--------LIST OF NON-IMPLEMENTED/PLANNED FEATURES--------
 
 ->Course updation approval by the admin whenever a faculty updates or changes any details by th admin
 
@@ -178,7 +192,10 @@ Like changing the name,email,department,sem,student ID and staffID and handling 
 
 ->Removing course exams while updating a course(Right now can only add new exams cannot be removed)
 
-List of Known Bugs
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------LIST OF KNOWN BUGS------------------
 
 ->Potential warning errors are being observed when faculties are being changed for a particular course(It is working but warnings
 
@@ -194,19 +211,23 @@ Shows un-updated data.But the slots are being updated properly
 
 ->Could have implemented a better authentication system
 
-
-
 [API routes] can be accessed on [http://localhost:3000/api/] This endpoint can be edited in `pages/api/filename.js`.
 
-ScreenShots
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+------SCREENSHOTS-------------
 
 U can view the screenshots here for further refernces!
 
 https://drive.google.com/drive/folders/1aEgyIoyvDyFPGoGpBeR_HeCSLLp9MkCe?usp=sharing
 
+----------------------------------------------------------------------------------------------------------
 
 
-References Used
+-------------------REFERENCES USED---------------------
+
 
 Learn Next JS
 
