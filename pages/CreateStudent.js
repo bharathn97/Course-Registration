@@ -12,7 +12,11 @@ const CreateStudent = () => {
   const [CGPA, setCGPA] = useState(0);
   const [sem, setSem] = useState(1);
   const [programType, setProgramType] = useState('');
-
+const isEmailValid = (email) => {
+      // Regular expression for a simple email validation
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    };
   const handleCreateStudent = async () => {
     // Perform validation if needed
     if (!isEmailValid(email)) {
